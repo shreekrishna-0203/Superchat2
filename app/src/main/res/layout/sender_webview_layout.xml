@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><!-- receiver_image_item.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_200sdp"
+    android:layout_height="@dimen/_100sdp"
+    android:layout_gravity="end"
+    android:layout_marginTop="@dimen/_2sdp"
+    android:layout_marginBottom="@dimen/_2sdp"
+    android:background="@drawable/sender_shape"
+    android:padding="@dimen/_2sdp">
+
+    <!-- Document WebView -->
+    <WebView
+        android:id="@+id/documentWebView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/file2" />
+
+    <!-- Timestamp -->
+    <TextView
+        android:id="@+id/txtTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/documentWebView"
+        android:layout_alignStart="@id/documentWebView"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="12:34"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+</RelativeLayout>

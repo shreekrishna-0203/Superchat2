@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "891764590133",
+    "project_id": "superchat-for-internship",
+    "storage_bucket": "superchat-for-internship.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891764590133:android:5a114ce5177cab2d65d37c",
+        "android_client_info": {
+          "package_name": "com.example.superchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByjk_c7wGLY-P3Hn8zFVQ8stjqfhHC1Sk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

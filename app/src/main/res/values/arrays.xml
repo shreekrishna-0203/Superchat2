@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="options_array">
+        <item>HR</item>
+        <item>Manager</item>
+        <item>HR</item>
+        <item>Manager</item>
+        <item>HR</item>
+        <item>Manager</item>
+        <item>Manager</item>
+        <item>HR</item>
+        <item>Manager</item>
+    </string-array>
+</resources>

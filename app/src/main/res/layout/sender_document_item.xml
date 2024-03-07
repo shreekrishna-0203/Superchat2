@@ -1,0 +1,28 @@
+<!-- receiver_document_item.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_gravity="end"
+    android:background="@drawable/sender_shape">
+
+    <TextView
+        android:id="@+id/txtDocumentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="hmm"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/txtTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDocumentName"
+        android:layout_alignStart="@id/txtDocumentName"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="12:34 PM"
+        android:textColor="@color/black" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Superchat</string>
+    <string name="text">Yo</string>
+    <string name="insert_image">\n</string>
+    <string name="title_activity_mapping">Mapping</string>
+</resources>

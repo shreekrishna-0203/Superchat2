@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!-- receiver_image_item.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_2sdp"
+    android:layout_marginBottom="@dimen/_2sdp"
+    android:background="@drawable/receiver_shape"
+    android:padding="@dimen/_2sdp">
+
+    <ImageView
+        android:id="@+id/imgMessages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gallery" />
+
+    <TextView
+        android:id="@+id/txtTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgMessages"
+        android:layout_marginTop="8dp"
+        android:text="12:34 PM"
+        android:layout_margin="@dimen/_2sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
